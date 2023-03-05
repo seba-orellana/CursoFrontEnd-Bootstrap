@@ -4,11 +4,11 @@ Curso Front End UTN 2023 - Bootstrap
 3/3/2023
 
 *Agregado menu superior  
-*Agregado Carousel  
+*Agregada foto y seccion principal
 
 FALTA POR HACER:  
 
-#Agregar etiquetas de maquetacion  
+#Agregar descripciones  
+#Agregar las demas secciones del portfolio  
 #Verificar si el sitio es responsive  
-#Agregar formulario  
-#Agregar Tarjetas  
+
