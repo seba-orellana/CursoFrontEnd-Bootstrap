@@ -8,10 +8,14 @@ Curso Front End UTN 2023 - Bootstrap
 
 6/3/2023
 
-*Agregada seccion principal con descripcion
+*Agregada seccion principal con descripcion  
+
+7/3/2023
+
+*Agregada seccion de proyectos y de redes de contacto  
 
 FALTA POR HACER:  
 
-#Agregar la seccion de proyectos y de contacto   
+#Corregir detalles de alineamiento del sitio  
 #Verificar si el sitio es responsive  
 
