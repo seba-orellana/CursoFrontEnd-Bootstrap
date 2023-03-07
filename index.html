@@ -12,20 +12,20 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sobre mi</a>
+            <a class="navbar-brand" href="#about">Sobre mi</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Algunos de mis trabajos</a>
-                <a class="nav-link active" href="#">Contactame</a>
+                <a class="nav-link active" aria-current="page" href="#proyectos">Algunos de mis trabajos</a>
+                <a class="nav-link active" href="#contacto">Contactame</a>
                 </div>
             </div>
             </div>
         </nav>
     </header>
-    <section class="container-fluid bg-primary text-center text-white">
+    <section id="about" class="container-fluid bg-primary text-center text-white">
         <div class="row">
             <div class="col-sm">
                 <h1 class="display-3">Sebastian Orellana</h1>
@@ -43,15 +43,59 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid bg-primary text-white pt-4">
+    <section id="proyectos" class="container-fluid bg-primary text-white pt-4">
         <div class="row">
             <div class="col-sm">
                 <h6 class="display-6 text-center">Algunos de los proyectos en los que me encuentro trabajando...</h6>
             </div>
         </div>
+        <div class="row g-4 justify-content-sm-around align-items-center pt-5">
+            <div class="col-sm-4">
+                <img class="img-thumbnail" src="./img/proyectos1.jpg" alt="proyecto-arduino">
+            </div>
+            <div class="col-sm-4">
+                <p class="text-break fs-3 text-center">Proyecto Autito-Robot en Arduino</p>
+                <p class="text-break fs-5 text-center">Junto con docentes de la UNRC, se esta desarrollando un autito robotico programado en arduino utilizando placas, componentes y sensores electronicos, con el objetivo de que realize trayectos de forma automatizada y recolecte distintos tipos de muestras a lo largo de un vivero y se almacenen de manera remota en un servidor.</p>
+            </div>
+        </div>
+        <div class="row justify-content-around align-items-center pt-5">
+            <div class="col-sm-4">
+                <p class="text-break fs-3 text-center">Cursos a distancia de la UTN</p>
+                <p class="text-break fs-5 text-center">Estudiando la Diplomatura en Python y el curso de Professional Front End Developer a distancia dentro de la plataforma virtual de la UTN</p>
+            </div>
+            <div class="col-sm-3 pb-5">
+                <img class="img-thumbnail" src="./img/proyectos2.jpg" alt="proyecto-cursos-a-dist">
+            </div>
+        </div>
     </section>
-    <footer>
-        
+    <footer id="contacto" class="container-fluid bg-primary text-white pt-5 ps-5">
+        <div class="row">
+            <div class="col-sm">
+                <h6 class="display-6 text-center">Contactame por cualquiera de mis redes: </h6>
+            </div>
+        </div>
+        <div class="row pt-4 d-flex justify-content-around ms-5">
+            <div class="col-sm-3">
+                <img src="./img/facebook-logo.png" class="img-fluid" alt="logo-facebook">
+            </div>
+            <div class="col-sm-3">
+                <img src="./img/twitter-logo.png" class="img-fluid" alt="logo-twitter">
+            </div>
+            <div class="col-sm-3">
+                <img src="./img/mail-logo.png" class="img-fluid" alt="email-logo">
+            </div>
+        </div>
+        <div class="row pt-4 d-flex justify-content-around ms-5 pb-4">
+            <div class="col-sm-3">
+                <img src="./img/insta-logo.png" class="img-fluid" alt="logo-instagram">
+            </div>
+            <div class="col-sm-3">
+                <img src="./img/linkedin-logo.png" class="img-fluid" alt="logo-linkedin">
+            </div>
+            <div class="col-sm-3">
+                <img src="./img/github-logo.png" class="img-fluid" alt="github-logo">
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
