@@ -2,3 +2,16 @@
     background-image: url(./img/background.jpg);
     background-size: cover;
 }
+
+.bi-facebook:hover, .bi-github:hover, .bi-linkedin:hover, .bi-twitter:hover, .bi-instagram:hover, .bi-envelope-at:hover {
+    color: rgb(93, 118, 231);
+}
+
+.bi-envelope-at, .bi-facebook, .bi-github, .bi-instagram, .bi-linkedin, .bi-twitter {
+    color: rgb(53, 51, 51);
+}
+
+.c:hover, .js:hover, .py:hover, .css:hover, .ruby:hover, .html:hover, .edad:hover, .mail:hover, .nac:hover, .alt:hover, .tel:hover, .ciudad:hover {
+    color:blue;
+    cursor: default;
+}
