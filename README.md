@@ -22,9 +22,9 @@ Curso Front End UTN 2023 - Bootstrap
 *Cambiado el color a blanco y agregada imagen de fondo al inicio  
 *Corregido el alineamiento de las secciones en general  
 
-FALTA POR HACER:  
+22/3/2023
 
-#Linkear informacion de contacto  
-#Agregar animaciones a los iconos y animaciones de color en general  
-#Verificar si el sitio es responsive  
+*Linkeada la informacion de contacto (envia a las paginas principales de cada red)    
+*Agregar animaciones a los iconos y animaciones de color a algunos textos (cambio de color en css)  
+*Ajustados los tamaños de columnas para que el sitio se visualize mejor en sitios pequeños  
 
